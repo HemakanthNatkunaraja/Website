@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li {
+    @apply px-2;
+}
+
+.bg-primary {
+    background: #4B4376;
+}
+
+.bg-secondary {
+    background: #AE445A;
+}
+
+.mobile-nav {
+    @apply fixed top-10 left-0 bg-gray-800 w-full h-1/4  ;
+}
+
+.mobile-nav li {
+    @apply w-full h-full text-center border-b-2 ;
+}
+
+.project-desc {
+    @apply absolute left-0 right-0 bottom-0 top-0 bg-secondary opacity-0 duration-500 hover:opacity-100;
+}
+
+.btn {
+    @apply bg-primary px-5 py-2 font-bold hover:border-2 border-white rounded;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* .header-option{
+    @apply text-white font-bold text-lg px-5 py-2 hover:bg-gray-800 hover:text-white rounded-lg;
+}
+.text-animation{
+    overflow: hidden;
+    animation: 
+    typing 3s steps(30, end),
+    cursor 0.5s step-end infinite alternate;
+} */
+
+.wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    border-right: 3px solid;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }

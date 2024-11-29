@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/My-portfolio/static/css/main.3ad514fa.css",
+    "main.js": "/My-portfolio/static/js/main.070f1878.js",
+    "static/media/about.png": "/My-portfolio/static/media/about.85494bc4da12fa5393ed.png",
+    "static/media/resume.jpg": "/My-portfolio/static/media/resume.40d9ec3d0701d254f50f.jpg",
+    "static/media/My11.png": "/My-portfolio/static/media/My11.33bbb4fba7850ecadbf5.png",
+    "static/media/Network_cisco.png": "/My-portfolio/static/media/Network_cisco.1ee2079198cc78fd68a0.png",
+    "static/media/Hemakanth_Electronic_CV.pdf": "/My-portfolio/static/media/Hemakanth_Electronic_CV.e38197f948769bdafda4.pdf",
+    "static/media/3.png": "/My-portfolio/static/media/3.a4d6ee55bb50f49871d2.png",
+    "static/media/2.png": "/My-portfolio/static/media/2.9ef5497209c66edf6d06.png",
+    "index.html": "/My-portfolio/index.html",
+    "main.3ad514fa.css.map": "/My-portfolio/static/css/main.3ad514fa.css.map",
+    "main.070f1878.js.map": "/My-portfolio/static/js/main.070f1878.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ad514fa.css",
+    "static/js/main.070f1878.js"
+  ]
+}
